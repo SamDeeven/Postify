@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Grandstander:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Grandstander:wght@100&family=Grechen+Fuemen&family=Grey+Qo&display=swap');
+a {
+    color: black !important;
+}
+
+.brand-logo {
+    font-family: 'Acme', sans-serif;
+}
+
+.instaName {
+    font-family: 'Grechen Fuemen', cursive;
+}
+
+.auth-card {
+    padding: 20px;
+    text-align: center;
+    max-width: 500px;
+    margin: 50px auto;
+    border-radius: 10px;
+    background-color: azure;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item {
+    width: 30%;
+}
+
+.home-card {
+    max-width: 500px;
+    height: max-content;
+    margin: 26px auto;
+}
+
+.input-field {
+    padding: 20px;
+    text-align: center;
+    max-width: 500px;
+    margin: 50px auto;
+    border-radius: 10px;
+    background-color: azure;
+}
+
+#toast-container {
+    top: 30px !important;
+    right: 20px !important;
+    left: auto !important;
+}
