@@ -24,9 +24,9 @@ app.use(require('./routes/register'))
 app.use(require('./routes/post'))
 
 
-if (process.env.NODE_ENV == "production") {
-    app.use(express.static("client/build"))
-}
+app.get('/', (req, res) => {
+    res.send('Server is connected')
+})
 
 
 app.listen(5001, () => console.log("Server is listening at 5001"));
