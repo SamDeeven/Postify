@@ -26,7 +26,7 @@ app.use(require('./routes/register'))
 app.use(require('./routes/post'))
 
 
-app.get('/', (req, res) => {
+app.get('/signin', (req, res) => {
     res.send('Server is connected')
 })
 
